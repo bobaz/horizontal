@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Portafolio Camila Bobadilla</title>
+		<!-- Cargamos estilos y fuente -->
+		<link rel="stylesheet" type="text/css" href="estilos.css">
+		<link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	</head>
+	<body>
+		<nav class="fixed">
+			<ul>
+				<li>
+					<a href="#s1" class="activo">HOME</a>
+				</li>
+				<li>
+					<a href="#s2">Sobre mi</a>
+                </li>
+                
+				<li>		
+					<a href="#s3">Mis trabajos</a>
+				</li>
+                <li>		
+					<a href="#s4">Contacto</a>
+				</li>
+              
+			</ul>
+		</nav>			
+		<section id="s1">
+		<div id="titulos">
+			<h2 class="titulo-1">PORTAFOLIO </h2>
+			<h2 class="titulo-2">Camila Bobadilla</h2>
+		</div>
+        </section>
+		<section id="s2">
+			<p>Sobre mi</p>
+            <div class="separacion"></div>
+            <article id="foto"><span>Camila Bobadilla Creuz<br>
+			Productora Web...</span>
+            <div id="rectangulo"></div>
+            <figure><img src="imagenes/ms_adela.png"></figure>
+            </article>
+        </section>
+		<section id="s3">
+			
+            <p>Mis trabajos</p>
+            <div class="separacion"></div>
+             <figure id="foto_sm">
+        <ul>
+              <li><a href="#"><img src="imagenes/img_mist.png"></a></li>
+              <li><a href="#"><img src="imagenes/img_mist.png"></a></li>
+              <li><a href="#"><img src="imagenes/img_mist.png"></a></li>
+              <li><a href="#"><img src="imagenes/img_mist.png"></a></li>
+        </ul>
+       </figure>
+       
+	       <section id="s4">
+		  <p>Contacto</p> 
+          <div class="separacion"></div>
+          <article id="contacto_left"><form method="GET" action="#" id="formulario">
+							<fieldset>
+			  <div>
+			<div class="block">
+				<label> Nombre :</label>
+				<input type="text" id="name" placeholder="  Nombre completo..." required value="Camila Bobadilla"/>
+				</div>
+			</div>
+			<div>
+				<div class="block">
+					<label> Email :</label>
+					<input type="email" id="email" required placeholder="  micorreo@prueba.com"  value="micorreo@prueba.com" />
+				</div>
+			</div>
+			<div>
+				<div class="block">
+					<label> Asunto :</label>
+					<input type="text" id="subject"/>
+				</div>
+			</div>  
+			<div>
+			    <div class="block">
+			    	<label>Telefono :</label>
+			    	<input type="text" id="phone"/>
+			    </div>
+			</div> 
+			<div>
+			    <div class="block">
+					<label for="message">* Mensaje :</label>
+					<textarea id="message" rows="5" required placeholder="  Escriba su mensaje aca...">Al apretar enviar, se confirma el envio...</textarea>
+				</div>
+			</div>	
+			</fieldset>
+			<div id="boton">
+				<input type="submit" value="Enviar" />
+			</div>
+		</form></article>  
+       <article id="redes_sociales">
+        <ul>
+              <li><a href="#"><i class="fa fa-facebook-square fa-5x"></i><span> /CamilaBobadillaWeb</span></a></li>
+              <li><a href="#"><i class="fa fa-twitter-square fa-5x"></i><span> @CamiBocreuzWeb</span></a></li>
+              <li><a href="#"><i class="fa fa-linkedin-square fa-5x"></i><span> /Camila.Bobadilla</span></a></li>
+              <li><a href="#"><i class="fa fa-dribbble fa-5x"></i><span> /cami.bocreuz</span></a></li>
+        </ul>
+       </article>
+		</section>
+    
+		<!-- Importamos libreria jQuery -->
+		<script src="js/jquery.min.js"></script>
+		<!-- Plugin para dar mas efecto a nuestro scroll -->
+		<script src="js/jquery.easing.min.js"></script>
+		<!-- Importamos nuestro script -->
+		<script src="script.js"></script>
+	</body>
+</html>	
